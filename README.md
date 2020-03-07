@@ -49,13 +49,85 @@ And that concludes in below four parts:
 
 # List of google cloud services that helps one achieve above goals.
 
-## Compute Engine
+There are google's supporting services that will help you go-around with Big Data and ML services provided by Google Cloud.
 
-## Cloud IAM
+---
+# Supporting services
 
-## Cloud SQL
+## Cloud Compute Engine
 
-## Cloud Storage
+## Cloud IAM roles
+
+## Cloud Monitoring & Cloud Logging
+
+---
+
+# Databases & storage
+
+## 1. Cloud SQL
+
+## 2. Cloud Storage
+
+## 3. Cloud Spanner
+
+## 4. CloudSQL
+
+## 5. Cloud Firestore
+
+## 7. Cloud MemoryStore
+
+## 8. BigData Ecosystem
+- MapReduce
+- Apache Hadoop & HDFS
+- Apache Spark
+- Apache Pig
+- Apchae Tez
+- Apache Kafka
+
+## 9. Cloud Pub/Sub
+
+## 10. Cloud DataFlow
+
+- Managed Apache Beam
+
+## 11. Cloud DataProc
+
+- Managed Apache Spark
+
+## 12. Cloud BigTable
+
+## 13. Cloud BigQuery
+
+## 14. Cloud DataLab
+
+## 15. Cloud DataStudio
+
+## 16. Cloud Composer
+
+---
+# Machine Learning related sevices
+
+## 1. Understanding Machine Learning
+
+## 2. TensorFlow
+
+## 3. Pre-trained ML Cloud APIs
+
+## 4. Auto ML platform by Google Cloud
+
+## 5. Operationalizing ML models with Google Cloud services
+
+
+---
+# Ensuring Quality (Data security & industry regulations)
+
+## 1. Data Security
+
+## 2. Data Privacy
+
+## 3. Regulations
+
+## 4. IAM roles to achive proper security
 
 **ToDo:**
 - Services list and their definition for the reference.
