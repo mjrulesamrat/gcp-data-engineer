@@ -127,8 +127,37 @@ There are google's supporting services that will help you go-around with Big Dat
 
 ## 3. Regulations
 
-## 4. IAM roles to achive proper security
+## 4. IAM roles to achieve proper security
 
-**ToDo:**
-- Services list and their definition for the reference.
-- Add their badge as well.
+
+--
+# Further services breakdown
+
+### Managed Databases
+
+- Cloud SQL
+- DataStore
+- Bigtable
+- Cloud Spanner
+
+### DataEngineering Architecture
+
+- Realtime messaging with Pub/Sub
+- Data Pipelines with Cloud Dataflow
+- Dataproc
+
+### Analyzing Data and enabling Machine Learning
+
+- BigQuery
+- AI Platform
+- Pretrained ML APIs
+- Datalab
+
+### Data Visulization
+
+- Dataprep
+- Data Stidio
+
+## Monitoring & Orchestration
+
+- Cloud Composer
