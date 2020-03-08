@@ -54,11 +54,11 @@ There are google's supporting services that will help you go-around with Big Dat
 ---
 # Supporting services
 
-## Cloud Compute Engine
+## 1. Cloud Compute Engine
 
-## Cloud IAM roles
+## 2. Cloud IAM roles
 
-## Cloud Monitoring & Cloud Logging
+## 3. Cloud Monitoring & Cloud Logging
 
 ---
 
