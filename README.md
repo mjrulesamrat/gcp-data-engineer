@@ -47,89 +47,6 @@ And that concludes in below four parts:
     - Ensuring flexibility and portability
 
 
-# List of google cloud services that helps one achieve above goals.
-
-There are google's supporting services that will help you go-around with Big Data and ML services provided by Google Cloud.
-
----
-# Supporting services
-
-## 1. Cloud Compute Engine
-
-## 2. Cloud IAM roles
-
-## 3. Cloud Monitoring & Cloud Logging
-
----
-
-# Databases & storage
-
-## 1. Cloud SQL
-
-## 2. Cloud Storage
-
-## 3. Cloud Spanner
-
-## 4. CloudSQL
-
-## 5. Cloud Firestore
-
-## 7. Cloud MemoryStore
-
-## 8. BigData Ecosystem
-- MapReduce
-- Apache Hadoop & HDFS
-- Apache Spark
-- Apache Pig
-- Apchae Tez
-- Apache Kafka
-
-## 9. Cloud Pub/Sub
-
-## 10. Cloud DataFlow
-
-- Managed Apache Beam
-
-## 11. Cloud DataProc
-
-- Managed Apache Spark
-
-## 12. Cloud BigTable
-
-## 13. Cloud BigQuery
-
-## 14. Cloud DataLab
-
-## 15. Cloud DataStudio
-
-## 16. Cloud Composer
-
----
-# Machine Learning related sevices
-
-## 1. Understanding Machine Learning
-
-## 2. TensorFlow
-
-## 3. Pre-trained ML Cloud APIs
-
-## 4. Auto ML platform by Google Cloud
-
-## 5. Operationalizing ML models with Google Cloud services
-
-
----
-# Ensuring Quality (Data security & industry regulations)
-
-## 1. Data Security
-
-## 2. Data Privacy
-
-## 3. Regulations
-
-## 4. IAM roles to achieve proper security
-
-
 --
 # Further services breakdown
 
@@ -161,3 +78,125 @@ There are google's supporting services that will help you go-around with Big Dat
 ## Monitoring & Orchestration
 
 - Cloud Composer
+
+
+# Google cloud services
+
+There are google's supporting services that will help you go-around with Big Data and ML services provided by Google Cloud.
+
+## Cloud Compute Engine
+
+## Cloud IAM roles
+
+## Cloud Monitoring & Cloud Logging
+
+## 1. Cloud SQL
+
+## 2. Cloud Storage
+
+## 3. Cloud Spanner
+
+## 4. CloudSQL
+
+## 5. Cloud Firestore
+
+## 7. Cloud MemoryStore
+
+- Fully managed in-memory data store service for Redis
+
+- Easy lift and shift applications from open-source redis to Memorystore.
+
+## 8. BigData Ecosystem
+- MapReduce
+- Apache Hadoop & HDFS
+- Apache Spark
+- Apache Pig
+- Apchae Tez
+- Apache Kafka
+
+## 9. Cloud Pub/Sub
+
+- Global messaging and event ingestion
+
+- Pub/Sub is a fully-managed real-time messaging service that allows you to send and receive messages between independent applications.
+
+- Decouple background data and event processing from the code that handles user-facing requests
+
+## 10. Cloud DataFlow
+
+- Managed Apache Beam, Fast, unified stream and batch data processing
+
+- Dataflow is a fully managed streaming analytics service that minimizes latency, processing time, and cost through autoscaling and batch processing. With its serverless approach to resource provisioning and management, you have access to virtually limitless capacity to solve your biggest data processing challenges, while paying only for what you use.
+
+- Horizontal autoscaling of worker resources to maximize resource utilization
+
+
+## 11. Cloud DataProc
+
+- Managed Apache Spark and Hadoop clusters
+
+- Also supports Apache Pig and Apache Hive
+
+- Dataproc is a managed Apache Spark and Apache Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them. With less time and money spent on administration, you can focus on your jobs and your data.
+
+
+## 12. Cloud BigTable
+
+- Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+
+- Global distributed, RowKey concept
+
+## 13. Cloud BigQuery
+
+- BigQuery is Google's fully managed, petabyte scale, low cost analytics data warehouse. BigQuery is NoOps—there is no infrastructure to manage and you don't need a database administrator—so you can focus on analyzing data to find meaningful insights, use familiar SQL, and take advantage of our pay-as-you-go model.
+
+- Serverless
+
+## 14. Cloud DataLab
+
+- Use Cloud Datalab to easily explore, visualize, analyze, and transform data using familiar languages, such as Python and SQL, interactively. Pre-installed Jupyter introductory, sample, and tutorial notebooks, show you how to:
+
+  - Access, analyze, monitor, and visualize data
+
+  - Use notebooks with Python, TensorFlow Machine Learning, and Google Analytics, Google BigQuery, and Google Charts APIs
+
+  - Store these notebooks to GCS and access anytime again
+
+## 15. Cloud DataStudio
+
+- Serverless BI reporting and Dashboard
+
+- Google Data Studio is a fully managed visual analytics service that can help anyone in your organization unlock insights from data through easy-to-create and interactive dashboards that inspire smarter business decision-making.
+
+- When Data Studio is combined with BigQuery BI Engine, an in-memory analysis service, data exploration and visual interactivity reach sub-second speeds, over massive datasets.
+
+## 16. Cloud Composer
+
+- Cloud Composer is a managed Apache Airflow service that helps you create, schedule, monitor and manage workflows.
+
+- Cloud Composer automation helps you create Airflow environments quickly and use Airflow-native tools, such as the powerful Airflow web interface and command line tools, so you can focus on your workflows and not your infrastructure.
+
+
+---
+
+### Understanding Machine Learning
+
+## 1. TensorFlow
+
+## 2. Pre-trained ML Cloud APIs
+
+## 3. Auto ML platform by Google Cloud
+
+## 4. Operationalizing ML models with Google Cloud services
+
+
+---
+### Ensuring Quality (Data security & industry regulations)
+
+## 1. Data Security
+
+## 2. Data Privacy
+
+## 3. Regulations
+
+## 4. IAM roles to achieve proper security
