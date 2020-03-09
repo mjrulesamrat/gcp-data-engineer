@@ -46,8 +46,7 @@ And that concludes in below four parts:
     - Ensuring reliability and fidelity
     - Ensuring flexibility and portability
 
-
---
+---
 # Further services breakdown
 
 ### Managed Databases
@@ -75,36 +74,79 @@ And that concludes in below four parts:
 - Dataprep
 - Data Stidio
 
-## Monitoring & Orchestration
+### Monitoring & Orchestration
 
 - Cloud Composer
 
-
+---
 # Google cloud services
 
 There are google's supporting services that will help you go-around with Big Data and ML services provided by Google Cloud.
 
 ## Cloud Compute Engine
 
+- Scalable and high-performance virtual machines
+
 ## Cloud IAM roles
+
+- Fine-grained access control and visibility for centrally managing cloud resources.
+
 
 ## Cloud Monitoring & Cloud Logging
 
-## 1. Cloud SQL
+- Monitoring for applications on Google Cloud and AWS.
 
-## 2. Cloud Storage
+- Logging for applications on Google Cloud and AWS.
 
-## 3. Cloud Spanner
 
-## 4. CloudSQL
+## 1. Cloud SQL (Relational)
 
-## 5. Cloud Firestore
+- Fully managed relational database service for MySQL, PostgreSQL, and SQL server
 
-## 7. Cloud MemoryStore
+- WordPress, backends, game states, CRM tools, MySQL, PostgreSQL, and Microsoft SQL Servers
 
-- Fully managed in-memory data store service for Redis
+- AWS RDS, AWS Aurora, Azure Database, Azure SQL Database
+
+## 2. Cloud Storage (Objects)
+
+- Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
+
+- Globally unique bucket name.
+
+## 3. Cloud Spanner (Relational)
+
+- Fully managed, scalable, *relational* database service for regional and global application data
+
+- Cloud Spanner is a scalable relational database service built to support transactions, strong consistency, and high availability across regions and continents.
+
+- Cassandra (with CQL), AWS Aurora, AWS DynamoDB, Azure CosmosDB
+
+
+## 4. Firebase realtime database (No-SQL)
+
+- The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in real time.
+
+- MongoDB, AWS DynamoDB, Azure Cosmos DB
+
+
+## 5. Cloud Firestore (No-SQL)
+
+- Cloud Firestore is a fast, fully managed, serverless, cloud-native NoSQL document database.
+
+- Enterprise-grade, scalable NoSQL
+
+- Sync data across devices, on or offline
+
+- MongoDB, AWS DynamoDB, Azure CosmosDB
+
+
+## 7. Cloud MemoryStore (No-SQL)
+
+- Cloud Memorystore is a fully managed in-memory data store service for Redis built on scalable, more secure, and highly available infrastructure.
 
 - Easy lift and shift applications from open-source redis to Memorystore.
+
+- AWS Elasticache, Azure Cache
 
 ## 8. BigData Ecosystem
 - MapReduce
@@ -122,6 +164,8 @@ There are google's supporting services that will help you go-around with Big Dat
 
 - Decouple background data and event processing from the code that handles user-facing requests
 
+- Streamed events, IoT, metrics can be ingested to cloud pub/sub
+
 ## 10. Cloud DataFlow
 
 - Managed Apache Beam, Fast, unified stream and batch data processing
@@ -130,6 +174,7 @@ There are google's supporting services that will help you go-around with Big Dat
 
 - Horizontal autoscaling of worker resources to maximize resource utilization
 
+- Can be connected with Pub/Sub to do data processing in batch or streaming
 
 ## 11. Cloud DataProc
 
@@ -140,17 +185,24 @@ There are google's supporting services that will help you go-around with Big Dat
 - Dataproc is a managed Apache Spark and Apache Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them. With less time and money spent on administration, you can focus on your jobs and your data.
 
 
-## 12. Cloud BigTable
+## 12. Cloud BigTable (No-SQL)
 
 - Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
 
 - Global distributed, RowKey concept
 
+- running large analytical workloads and building low-latency applications
+
+- HBase, Cassandra, AWS DynamoDB, Azure CosmosDB
+
 ## 13. Cloud BigQuery
 
 - BigQuery is Google's fully managed, petabyte scale, low cost analytics data warehouse. BigQuery is NoOps—there is no infrastructure to manage and you don't need a database administrator—so you can focus on analyzing data to find meaningful insights, use familiar SQL, and take advantage of our pay-as-you-go model.
 
-- Serverless
+- Serverless, real-time analytics, advanced and predictive analytics, large-scale events, and enterprises
+
+- AWS Redshift, Snowflake, and Azure SQL Data Warehouse
+
 
 ## 14. Cloud DataLab
 
